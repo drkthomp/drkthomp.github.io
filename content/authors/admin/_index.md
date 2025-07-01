@@ -100,13 +100,13 @@ skills:
     items:
       - name: R (tidyverse, gt, ggplot2, quarto)
         percent: 100
-        icon: code-bracket
+        icon: R_logo
       - name: Python (pandas, seaborn, matplotlib)
         percent: 85
-        icon: code-bracket
+        icon: python-original
       - name: Snakemake
         percent: 90
-        icon: gear
+        icon: logo-snake
       - name: Git & GitHub
         percent: 85
         icon: github
@@ -135,10 +135,10 @@ skills:
         icon: paintbrush
       - name: Hiking
         percent: 60
-        icon: person-hiking
+        icon: footprints
       - name: Guinea Pig Care
         percent: 100
-        icon: paw
+        icon: panda
 
 languages:
   - name: English
