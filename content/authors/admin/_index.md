@@ -72,8 +72,8 @@ work:
   - position: Student Assistant (Bioinformatics & Data Viz)
     company_name: Center for Genomic Medicine, Rigshospitalet
     company_url: https://www.rigshospitalet.dk/english
-    date_start: 2024-03
-    date_end: ''
+    date_start: 2024-03-01
+    date_end: '2025-12-30'
     summary: |2-
       - Developed high-impact visualizations of genomic benchmarks using `ggplot2`, `gt`, and `patchwork`
       - Maintained and expanded Snakemake pipelines for multisample variant calling and consistency scoring
