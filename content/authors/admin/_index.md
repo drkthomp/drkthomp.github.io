@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Drew Thompson
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Drew Kaley Ann
+last_name: Thompson
 
 # Status emoji
 status:
@@ -20,167 +20,145 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Freelance Data Visualization & Bioinformatics
+
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Copenhagen
+    url: https://science.ku.dk/
+  - name: Rigshospitalet - Center for Genomic Medicine
+    url: https://www.rigshospitalet.dk/english
+
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:drkthomp@pm.me'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://twitter.com/drewth
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/drkthomp
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://www.linkedin.com/in/drew-k-thompson/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-9762-4298
+
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
-
+  - Bioinformatics
+  - Data Visualization
+  - Reproducible Science
+  - Explainable AI
+  - Science Communication
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc in Bioinformatics
+    institution: University of Copenhagen
+    date_start: 2023-09
+    date_end: 2025-09
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Thesis on _Non-linear Methods in Polygenic Risk Score Analysis_.
+      Supervised by Frederik Bagger (Rigshospitalet). Focus on MLP-based explainable models and Snakemake-based reproducibility.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc in Bioinformatics and Marine Biology
+    institution: University of California, Santa Cruz
+    date_start: 2019-09
+    date_end: 2023-06
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Student Assistant (Bioinformatics & Data Viz)
+    company_name: Center for Genomic Medicine, Rigshospitalet
+    company_url: https://www.rigshospitalet.dk/english
+    date_start: 2024-03
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Developed high-impact visualizations of genomic benchmarks using `ggplot2`, `gt`, and `patchwork`
+      - Maintained and expanded Snakemake pipelines for multisample variant calling and consistency scoring
+      - Assisted with reproducible benchmarking of structural variant callers
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
+  - position: NSF REU Intern
+    company_name: Whitney Marine Lab - University of Florida
+    date_start: 2021-06
+    date_end: 2021-08
+    summary: |
+      - Performed CNV and SNV analysis on 21 tumor-normal sea turtle genome pairs using `R`, CLI, and Illumina NovaSeq data
+      - Presented results at 4 conferences; awarded Best Poster 2021 and Best Undergrad Presentation
+
+  - position: Undergraduate Researcher
+    company_name: Treehouse Childhood Cancer Initiative, UC Santa Cruz Genomics Institute
+    date_start: 2020-06
+    date_end: 2021-06
+    summary: |
+      - Focused on pediatric tumor genomic analysis
+      - Gained experience in reproducible pipelines and data storytelling
+
 skills:
-  - name: Technical Skills
+  - name: Technical
     items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
+      - name: R (tidyverse, gt, ggplot2, quarto)
         percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
+        icon: code-bracket
+      - name: Python (pandas, seaborn, matplotlib)
+        percent: 85
+        icon: code-bracket
+      - name: Snakemake
+        percent: 90
+        icon: gear
+      - name: Git & GitHub
+        percent: 85
+        icon: github
+      - name: Bash
+        percent: 70
+        icon: terminal
+
+  - name: Design & Visualization
+    items:
+      - name: Data Storytelling
+        percent: 95
+        icon: book-open
+      - name: Dashboard Prototypes
+        percent: 60
+        icon: layout
+      - name: Print Layouts (Posters, PDFs)
+        percent: 85
+        icon: file-pdf
+
+  - name: Personal
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
+      - name: Drawing
         percent: 80
-        icon: camera
+        icon: paintbrush
+      - name: Hiking
+        percent: 60
+        icon: person-hiking
+      - name: Guinea Pig Care
+        percent: 100
+        icon: paw
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: Spanish
+    percent: 50
+  - name: Danish
     percent: 25
+  - name: Japanese
+    percent: 20
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: Best Undergraduate Poster
+    awarder: Whitney Marine Lab
+    date: 2021-08
+  - title: Best Undergraduate Presentation
+    awarder: Sea Turtle FP Research Symposium
+    date: 2021-08
+
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I'm Drew Thompson—a data visualization fanatic with a background in bioinformatics, passionate about turning complex datasets into actionable insights. I specialize in genomic data and love building reproducible pipelines that tell clear, visual stories. When I'm not coding or charting, you can find me caring for my guinea pigs or sketching infographic ideas. I’m currently completing my Master's thesis on non-linear polygenic risk score modeling and am available for freelance data visualization and R/Python analytics work.
