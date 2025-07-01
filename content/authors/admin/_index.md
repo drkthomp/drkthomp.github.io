@@ -11,7 +11,7 @@ last_name: Thompson
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🧬
 
 # Is this the primary user of the site?
 superuser: true
@@ -53,19 +53,20 @@ interests:
   - Reproducible Science
   - Explainable AI
   - Science Communication
+
 education:
   - area: MSc in Bioinformatics
     institution: University of Copenhagen
-    date_start: 2023-09
-    date_end: 2025-09
+    date_start: 2023-09-01
+    date_end: 2025-09-01
     summary: |
       Thesis on _Non-linear Methods in Polygenic Risk Score Analysis_.
       Supervised by Frederik Bagger (Rigshospitalet). Focus on MLP-based explainable models and Snakemake-based reproducibility.
 
   - area: BSc in Bioinformatics and Marine Biology
     institution: University of California, Santa Cruz
-    date_start: 2019-09
-    date_end: 2023-06
+    date_start: 2019-09-01
+    date_end: 2023-06-01
 
 work:
   - position: Student Assistant (Bioinformatics & Data Viz)
@@ -80,16 +81,16 @@ work:
 
   - position: NSF REU Intern
     company_name: Whitney Marine Lab - University of Florida
-    date_start: 2021-06
-    date_end: 2021-08
+    date_start: 2021-06-01
+    date_end: 2021-08-01
     summary: |
       - Performed CNV and SNV analysis on 21 tumor-normal sea turtle genome pairs using `R`, CLI, and Illumina NovaSeq data
       - Presented results at 4 conferences; awarded Best Poster 2021 and Best Undergrad Presentation
 
   - position: Undergraduate Researcher
     company_name: Treehouse Childhood Cancer Initiative, UC Santa Cruz Genomics Institute
-    date_start: 2020-06
-    date_end: 2021-06
+    date_start: 2020-06-01
+    date_end: 2021-06-01
     summary: |
       - Focused on pediatric tumor genomic analysis
       - Gained experience in reproducible pipelines and data storytelling
@@ -152,10 +153,10 @@ languages:
 awards:
   - title: Best Undergraduate Poster
     awarder: Whitney Marine Lab
-    date: 2021-08
+    date: 2021-08-01
   - title: Best Undergraduate Presentation
     awarder: Sea Turtle FP Research Symposium
-    date: 2021-08
+    date: 2021-08-01
 
 ---
 
